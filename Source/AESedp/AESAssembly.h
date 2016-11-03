@@ -11,7 +11,7 @@
 
 
 // Select which implementation to use.
-#if 0
+#if 1
 	#define	UseAESedp_IntelAssembly
 #else
 	#define	UseAESedp_GeneralC
