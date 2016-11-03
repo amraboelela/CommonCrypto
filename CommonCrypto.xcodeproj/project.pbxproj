@@ -255,7 +255,6 @@
 		05E319DD0638913700C4AD24 /* sha2Priv.h in Headers */ = {isa = PBXBuildFile; fileRef = 05E319DC0638913700C4AD24 /* sha2Priv.h */; };
 		05E319DE0638913700C4AD24 /* sha2Priv.h in Headers */ = {isa = PBXBuildFile; fileRef = 05E319DC0638913700C4AD24 /* sha2Priv.h */; };
 		05ECA0EE09D469A100CFE5CB /* set_key.c in Sources */ = {isa = PBXBuildFile; fileRef = 05ECA0ED09D469A100CFE5CB /* set_key.c */; };
-		0C75FE831DCAFEC60093DEF7 /* README in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0C75FE821DCAFEC60093DEF7 /* README */; };
 		4C0889EA06EFE058009F3789 /* CommonDigest.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 054BBECD05F6AA7200344873 /* CommonDigest.h */; };
 		58226EAE0D35835700B35CC2 /* AES.c in Sources */ = {isa = PBXBuildFile; fileRef = 58226EAB0D35835700B35CC2 /* AES.c */; settings = {COMPILER_FLAGS = "-std=c99"; }; };
 		58226EAF0D35835700B35CC2 /* AESAssembly.h in Headers */ = {isa = PBXBuildFile; fileRef = 58226EAC0D35835700B35CC2 /* AESAssembly.h */; };
@@ -511,7 +510,6 @@
 				D6658DBB0BD8178400D18063 /* CCCryptorGetOutputLength.3cc in CopyFiles */,
 				D6658DBC0BD8178400D18063 /* CCCryptorRelease.3cc in CopyFiles */,
 				D6658DBD0BD8178400D18063 /* CCCryptorReset.3cc in CopyFiles */,
-				0C75FE831DCAFEC60093DEF7 /* README in CopyFiles */,
 				D6658DBE0BD8178400D18063 /* CCCryptorUpdate.3cc in CopyFiles */,
 				D6658DBF0BD8178400D18063 /* CCHmac.3cc in CopyFiles */,
 				D6658DC00BD8178400D18063 /* CCHmacFinal.3cc in CopyFiles */,
@@ -611,6 +609,11 @@
 		0C75FE671DCAFE680093DEF7 /* ssleayUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssleayUtils.h; sourceTree = "<group>"; };
 		0C75FE681DCAFE680093DEF7 /* t_stdlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = t_stdlib.c; sourceTree = "<group>"; };
 		0C75FE821DCAFEC60093DEF7 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		0C75FE841DCB01CA0093DEF7 /* GNUmakefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GNUmakefile; sourceTree = "<group>"; };
+		0C75FE851DCB01CA0093DEF7 /* GNUmakefile.postamble */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GNUmakefile.postamble; sourceTree = "<group>"; };
+		0C75FE861DCB01CA0093DEF7 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		0C75FE871DCB01CA0093DEF7 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		0C75FE881DCB01CA0093DEF7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		58226EAB0D35835700B35CC2 /* AES.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; includeInIndex = 1; name = AES.c; path = AESedp/AES.c; sourceTree = "<group>"; };
 		58226EAC0D35835700B35CC2 /* AESAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AESAssembly.h; path = AESedp/AESAssembly.h; sourceTree = "<group>"; };
 		5855FFD40D3ECE2000D5D39C /* AES.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = AES.s; path = AESedp/Intel/AES.s; sourceTree = "<group>"; };
@@ -718,6 +721,11 @@
 			isa = PBXGroup;
 			children = (
 				0C75FE821DCAFEC60093DEF7 /* README */,
+				0C75FE841DCB01CA0093DEF7 /* GNUmakefile */,
+				0C75FE851DCB01CA0093DEF7 /* GNUmakefile.postamble */,
+				0C75FE861DCB01CA0093DEF7 /* module.modulemap */,
+				0C75FE871DCB01CA0093DEF7 /* Package.swift */,
+				0C75FE881DCB01CA0093DEF7 /* README.md */,
 				054BBEB105F6A90E00344873 /* Public Headers */,
 				054BBEB405F6A91E00344873 /* Source */,
 				05DF6D0E09CF2D5B00D9A3E8 /* doc */,
@@ -1209,6 +1217,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
+				TargetAttributes = {
+					054BBEB705F6A93300344873 = {
+						LastSwiftMigration = 0810;
+					};
+				};
 			};
 			buildConfigurationList = C27AD0910987FCDA001272E0 /* Build configuration list for PBXProject "CommonCrypto" */;
 			compatibilityVersion = "Xcode 2.4";
@@ -1747,15 +1760,19 @@
 		C27AD08E0987FCDA001272E0 /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				INSTALL_GROUP = wheel;
 				INSTALL_OWNER = root;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = world;
 				SECTORDER_FLAGS = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				WARNING_CFLAGS = (
 					"-Wmost",
 					"-Wno-four-char-constants",
@@ -1767,12 +1784,15 @@
 		C27AD08F0987FCDA001272E0 /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COPY_PHASE_STRIP = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = world;
 				SECTORDER_FLAGS = "";
+				SWIFT_VERSION = 3.0;
 				WARNING_CFLAGS = (
 					"-Wmost",
 					"-Wno-four-char-constants",
@@ -1784,11 +1804,14 @@
 		C27AD0900987FCDA001272E0 /* Default */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = world;
 				SECTORDER_FLAGS = "";
+				SWIFT_VERSION = 3.0;
 				WARNING_CFLAGS = (
 					"-Wmost",
 					"-Wno-four-char-constants",

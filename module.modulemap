@@ -1,4 +1,4 @@
-module CCommonCryptor [system] {
+module CommonCryptor [system] {
   header "CommonCryptor/CommonCryptor.h"
   link "CommonCryptor"
   export *
