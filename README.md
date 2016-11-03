@@ -1,35 +1,37 @@
 # CommonCrypto
 
 ## Install
+To install CommonCrypto library to be used as a swift module, do the following:
+
 1. Install gnustep:
 
-    $ sudo aptitude install gnustep-devel
+        $ sudo aptitude install gnustep-devel
 
 2. Edit .bashrc file
 
-   ~$ vim .bashrc 
+        ~$ vim .bashrc 
+Then Add:
 
-- Then Add:
+        export GNUSTEP_MAKEFILES=/usr/share/GNUstep/Makefiles/
+Then:
 
-    export GNUSTEP_MAKEFILES=/usr/share/GNUstep/Makefiles/
+        ~$ source .bashrc
+        
+3. Build CommonCrypto
 
-3. 
-
-    CommonCrypto$ make
-    CommonCrypto$ make install
+        CommonCrypto$ make
+        CommonCrypto$ make install
 
 4. If you get the following error:
 
-    fatal error: 'TargetConditionals.h' file not found
+        fatal error: 'TargetConditionals.h' file not found
+Then do the following:
 
-- Then:
-
-    /$ sudo find . -name "TargetConditionals.h"
-    /$ cp path/to/TargetConditionals.h usr/include
-
-- Then run make again
+        /$ sudo find . -name "TargetConditionals.h"
+        /$ cp path/to/TargetConditionals.h usr/include
+Then run do step #3 again
 
 5. Copy the library to /usr/lib
 
-    CommonCrypto$ sudo cp obj/libCommonCrypto* /usr/lib
+        CommonCrypto$ sudo cp obj/libCommonCrypto* /usr/lib
 
