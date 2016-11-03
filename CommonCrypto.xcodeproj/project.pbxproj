@@ -581,8 +581,6 @@
 		05ECA0E509D468E200CFE5CB /* des_enc.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = des_enc.c; sourceTree = "<group>"; };
 		05ECA0E609D468E200CFE5CB /* des_locl.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = des_locl.h; sourceTree = "<group>"; };
 		05ECA0ED09D469A100CFE5CB /* set_key.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = set_key.c; sourceTree = "<group>"; };
-		0C75FE361DCAFD870093DEF7 /* CCommonCrypto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCommonCrypto.h; sourceTree = "<group>"; };
-		0C75FE371DCAFD870093DEF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C75FE4F1DCAFE680093DEF7 /* ccSymTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ccSymTest.cpp; sourceTree = "<group>"; };
 		0C75FE511DCAFE680093DEF7 /* boxes-ref.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "boxes-ref.h"; sourceTree = "<group>"; };
 		0C75FE521DCAFE680093DEF7 /* bsafeUtils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bsafeUtils.c; sourceTree = "<group>"; };
@@ -608,7 +606,6 @@
 		0C75FE661DCAFE680093DEF7 /* ssleayUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ssleayUtils.cpp; sourceTree = "<group>"; };
 		0C75FE671DCAFE680093DEF7 /* ssleayUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssleayUtils.h; sourceTree = "<group>"; };
 		0C75FE681DCAFE680093DEF7 /* t_stdlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = t_stdlib.c; sourceTree = "<group>"; };
-		0C75FE821DCAFEC60093DEF7 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		0C75FE841DCB01CA0093DEF7 /* GNUmakefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GNUmakefile; sourceTree = "<group>"; };
 		0C75FE851DCB01CA0093DEF7 /* GNUmakefile.postamble */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GNUmakefile.postamble; sourceTree = "<group>"; };
 		0C75FE861DCB01CA0093DEF7 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
@@ -720,7 +717,6 @@
 		054BBEA205F6A8DE00344873 = {
 			isa = PBXGroup;
 			children = (
-				0C75FE821DCAFEC60093DEF7 /* README */,
 				0C75FE841DCB01CA0093DEF7 /* GNUmakefile */,
 				0C75FE851DCB01CA0093DEF7 /* GNUmakefile.postamble */,
 				0C75FE861DCB01CA0093DEF7 /* module.modulemap */,
@@ -729,7 +725,6 @@
 				054BBEB105F6A90E00344873 /* Public Headers */,
 				054BBEB405F6A91E00344873 /* Source */,
 				05DF6D0E09CF2D5B00D9A3E8 /* doc */,
-				0C75FE351DCAFD870093DEF7 /* CCommonCrypto */,
 				0C75FE4E1DCAFE680093DEF7 /* LocalTests */,
 				054BBEBF05F6A97700344873 /* Products */,
 			);
@@ -909,15 +904,6 @@
 				05C4416E09D4BACE002066D1 /* e_os2.h */,
 			);
 			path = ccOpenssl;
-			sourceTree = "<group>";
-		};
-		0C75FE351DCAFD870093DEF7 /* CCommonCrypto */ = {
-			isa = PBXGroup;
-			children = (
-				0C75FE361DCAFD870093DEF7 /* CCommonCrypto.h */,
-				0C75FE371DCAFD870093DEF7 /* Info.plist */,
-			);
-			path = CCommonCrypto;
 			sourceTree = "<group>";
 		};
 		0C75FE4E1DCAFE680093DEF7 /* LocalTests */ = {
