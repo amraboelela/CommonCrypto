@@ -1,7 +1,7 @@
 # CommonCrypto
 
 ## Install
-To install CommonCrypto library to be used as a swift module, do the following:
+To install CommonCrypto library to be used as a swift module in Linux Ubuntu, do the following:
 
 1. Install gnustep:
 
