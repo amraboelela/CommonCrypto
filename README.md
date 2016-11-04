@@ -3,16 +3,18 @@
 ## Install
 To install CommonCrypto library to be used as a swift module in Linux Ubuntu, do the following:
 
-1. Install gnustep:
+1. Install required packages:
 
+        $ sudo aptitude install gnustep
         $ sudo aptitude install gnustep-devel
+        $ sudo aptitude install clang
 
 2. Edit .bashrc file
 
         ~$ vim .bashrc 
 Then Add:
 
-        export GNUSTEP_MAKEFILES=/usr/share/GNUstep/Makefiles/
+        export GNUSTEP_MAKEFILES=/usr/share/GNUstep/Makefiles
 Then:
 
         ~$ source .bashrc
@@ -27,7 +29,9 @@ Then:
 Then do the following:
 
         /$ sudo find . -name "TargetConditionals.h"
-        /$ cp path/to/TargetConditionals.h usr/include
+If not found then download swift toolchain from https://swift.org/download/ to Linux find the file from the toolchain
+
+        /$ sudo cp path/to/TargetConditionals.h usr/include
 Then run do step #3 again
 
 5. Copy the library to /usr/lib
