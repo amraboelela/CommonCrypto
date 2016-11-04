@@ -517,7 +517,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		05067904064025BF001640AF /* libcommonCrypto_profile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libcommonCrypto_profile.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		05067904064025BF001640AF /* libCommonCrypto_profile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCommonCrypto_profile.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		052049F809D1A6CC00A0D022 /* BlockCipher.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = BlockCipher.c; sourceTree = "<group>"; };
 		052F6C7009DB207F00EE63A4 /* aes.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
 		052F6C7109DB207F00EE63A4 /* aescrypt.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = aescrypt.c; sourceTree = "<group>"; };
@@ -527,8 +527,8 @@
 		052F6C7509DB207F00EE63A4 /* aestab.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = aestab.h; sourceTree = "<group>"; };
 		0539DC2609D4919D00AB7F89 /* opensslDES.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = opensslDES.c; sourceTree = "<group>"; };
 		0539DC2709D4919D00AB7F89 /* opensslDES.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = opensslDES.h; sourceTree = "<group>"; };
-		054BBEBE05F6A97700344873 /* libcommonCrypto.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libcommonCrypto.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		054BBEC605F6A98900344873 /* libcommonCryptoStatic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libcommonCryptoStatic.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		054BBEBE05F6A97700344873 /* libCommonCrypto.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCommonCrypto.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		054BBEC605F6A98900344873 /* libCommonCryptoStatic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCommonCryptoStatic.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		054BBECD05F6AA7200344873 /* CommonDigest.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CommonDigest.h; sourceTree = "<group>"; };
 		054BBED205F6AA8900344873 /* CommonDigestPriv.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CommonDigestPriv.h; sourceTree = "<group>"; };
 		054BBED305F6AA8900344873 /* md2_dgst.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = md2_dgst.c; sourceTree = "<group>"; };
@@ -539,7 +539,7 @@
 		054BBED805F6AA8900344873 /* md32_common.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = md32_common.h; sourceTree = "<group>"; };
 		054BBEDA05F6AA8900344873 /* sha_locl.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = sha_locl.h; sourceTree = "<group>"; };
 		054BBEDC05F6AA8900344873 /* sha1.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = sha1.c; sourceTree = "<group>"; };
-		05568800064012D40048BE18 /* libcommonCrypto_debug.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libcommonCrypto_debug.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		05568800064012D40048BE18 /* libCommonCrypto_debug.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCommonCrypto_debug.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		0585FE1209DC9873001762F6 /* c_ecb.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = c_ecb.c; sourceTree = "<group>"; };
 		0585FE1309DC9873001762F6 /* c_enc.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = c_enc.c; sourceTree = "<group>"; };
 		0585FE1409DC9873001762F6 /* c_skey.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = c_skey.c; sourceTree = "<group>"; };
@@ -760,10 +760,10 @@
 		054BBEBF05F6A97700344873 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				054BBEBE05F6A97700344873 /* libcommonCrypto.a */,
-				054BBEC605F6A98900344873 /* libcommonCryptoStatic.a */,
-				05568800064012D40048BE18 /* libcommonCrypto_debug.a */,
-				05067904064025BF001640AF /* libcommonCrypto_profile.a */,
+				054BBEBE05F6A97700344873 /* libCommonCrypto.a */,
+				054BBEC605F6A98900344873 /* libCommonCryptoStatic.a */,
+				05568800064012D40048BE18 /* libCommonCrypto_debug.a */,
+				05067904064025BF001640AF /* libCommonCrypto_profile.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1125,7 +1125,7 @@
 			);
 			name = commonCrypto_profile;
 			productName = commonCrypto_profile;
-			productReference = 05067904064025BF001640AF /* libcommonCrypto_profile.a */;
+			productReference = 05067904064025BF001640AF /* libCommonCrypto_profile.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		054BBEBD05F6A97700344873 /* commonCrypto */ = {
@@ -1146,7 +1146,7 @@
 			);
 			name = commonCrypto;
 			productName = commonCrypto;
-			productReference = 054BBEBE05F6A97700344873 /* libcommonCrypto.a */;
+			productReference = 054BBEBE05F6A97700344873 /* libCommonCrypto.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		054BBEC505F6A98900344873 /* commonCryptoStatic */ = {
@@ -1164,7 +1164,7 @@
 			);
 			name = commonCryptoStatic;
 			productName = commonCryptoStatic;
-			productReference = 054BBEC605F6A98900344873 /* libcommonCryptoStatic.a */;
+			productReference = 054BBEC605F6A98900344873 /* libCommonCryptoStatic.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		055687FF064012D40048BE18 /* commonCrypto_debug */ = {
@@ -1182,7 +1182,7 @@
 			);
 			name = commonCrypto_debug;
 			productName = commonCrypto_debug;
-			productReference = 05568800064012D40048BE18 /* libcommonCrypto_debug.a */;
+			productReference = 05568800064012D40048BE18 /* libCommonCrypto_debug.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -1427,7 +1427,7 @@
 				LIBRARY_STYLE = STATIC;
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = YES;
-				PRODUCT_NAME = commonCrypto;
+				PRODUCT_NAME = CommonCrypto;
 				PUBLIC_HEADERS_FOLDER_PATH = /;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
@@ -1457,7 +1457,7 @@
 				OTHER_CFLAGS = "-DNDEBUG";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = YES;
-				PRODUCT_NAME = commonCrypto;
+				PRODUCT_NAME = CommonCrypto;
 				PUBLIC_HEADERS_FOLDER_PATH = /;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
@@ -1486,7 +1486,7 @@
 				OTHER_CFLAGS = "-DNDEBUG";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = YES;
-				PRODUCT_NAME = commonCrypto;
+				PRODUCT_NAME = CommonCrypto;
 				PUBLIC_HEADERS_FOLDER_PATH = /;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
@@ -1514,7 +1514,7 @@
 				OTHER_CFLAGS = "-static";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = commonCryptoStatic;
+				PRODUCT_NAME = CommonCryptoStatic;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = "-Wmost";
@@ -1537,7 +1537,7 @@
 				OTHER_CFLAGS = "-static";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = commonCryptoStatic;
+				PRODUCT_NAME = CommonCryptoStatic;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = "-Wmost";
@@ -1559,7 +1559,7 @@
 				OTHER_CFLAGS = "-static";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = commonCryptoStatic;
+				PRODUCT_NAME = CommonCryptoStatic;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = "-Wmost";
@@ -1581,7 +1581,7 @@
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = commonCrypto_debug;
+				PRODUCT_NAME = CommonCrypto_debug;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
@@ -1607,7 +1607,7 @@
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = commonCrypto_debug;
+				PRODUCT_NAME = CommonCrypto_debug;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
@@ -1632,7 +1632,7 @@
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = commonCrypto_debug;
+				PRODUCT_NAME = CommonCrypto_debug;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
@@ -1662,7 +1662,7 @@
 					Carbon,
 				);
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = commonCrypto_profile;
+				PRODUCT_NAME = CommonCrypto_profile;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
@@ -1692,7 +1692,7 @@
 					Carbon,
 				);
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = commonCrypto_profile;
+				PRODUCT_NAME = CommonCrypto_profile;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
@@ -1721,7 +1721,7 @@
 					Carbon,
 				);
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = commonCrypto_profile;
+				PRODUCT_NAME = CommonCrypto_profile;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (

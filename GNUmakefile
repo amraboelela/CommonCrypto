@@ -7,13 +7,13 @@ shared=yes
 
 include $(GNUSTEP_MAKEFILES)/common.make
 
-LIBRARY_NAME=commonCrypto
+LIBRARY_NAME=CommonCrypto
 
 VERSION=0
 
 CC=clang
 
-commonCrypto_C_FILES=\
+CommonCrypto_C_FILES=\
 	Source/AESedp/AES.c\
 	Source/BlockCipher.c\
 	Source/CAST/c_ecb.c\
@@ -36,18 +36,18 @@ commonCrypto_C_FILES=\
 	Source/ccOpenssl/opensslDES.c\
 	Source/ccOpenssl/set_key.c
 
-commonCrypto_HEADER_FILES=\
+CommonCrypto_HEADER_FILES=\
 	CommonCryptor.h\
 	CommonDigest.h\
 	CommonHMAC.h
 
-commonCrypto_HEADER_FILES_DIR=\
+CommonCrypto_HEADER_FILES_DIR=\
 	CommonCrypto
 
-commonCrypto_HEADER_FILES_INSTALL_DIR=\
+CommonCrypto_HEADER_FILES_INSTALL_DIR=\
 	CommonCrypto
 
-commonCrypto_INCLUDE_DIRS=\
+CommonCrypto_INCLUDE_DIRS=\
 	-I./CommonCrypto\
 	-I./Source/CAST\
 	-I./$(SRCROOT)\
@@ -65,7 +65,7 @@ commonCrypto_INCLUDE_DIRS=\
 # GNU binutils assembler barfs on some of these files, and the llvm MC assembler
 # in clang on others. So we need to choose the assembler accordingly:
 
-commonCrypto_OBJ_FILES = \
+CommonCrypto_OBJ_FILES = \
 $(GNUSTEP_OBJ_INSTANCE_DIR)/Source/Digest/sha1edpLittleEndian.s.clang-as$(OEXT) \
 $(GNUSTEP_OBJ_INSTANCE_DIR)/Source/Digest/sha1edpBigEndian.s.clang-as$(OEXT) \
 $(GNUSTEP_OBJ_INSTANCE_DIR)/Source/AESedp/Intel/AES.s.extern-as$(OEXT) \
@@ -85,7 +85,7 @@ $(GNUSTEP_OBJ_INSTANCE_DIR)/%.s.extern-as$(OEXT) : %.s
                                                         $(ALL_CFLAGS)) \
               $($<_FILE_FLAGS) -o $@$(END_ECHO)
 
-commonCrypto_LIB_DIRS=
+CommonCrypto_LIB_DIRS=
 
 ADDITIONAL_CPPFLAGS+= -DGNUSTEP -DNDEBUG -DTARGET_CPU_X86_64=1 -DTARGET_OS_UNIX=1 -DAES_ASM
 include $(GNUSTEP_MAKEFILES)/library.make
