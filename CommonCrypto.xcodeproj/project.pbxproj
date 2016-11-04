@@ -221,16 +221,10 @@
 		05D9F61109D85F2C00AD30A7 /* CommonCryptor.c in Sources */ = {isa = PBXBuildFile; fileRef = 05D9F60F09D85F2C00AD30A7 /* CommonCryptor.c */; };
 		05D9F61209D85F2C00AD30A7 /* CommonCryptor.c in Sources */ = {isa = PBXBuildFile; fileRef = 05D9F60F09D85F2C00AD30A7 /* CommonCryptor.c */; };
 		05D9F61309D85F2C00AD30A7 /* CommonCryptor.c in Sources */ = {isa = PBXBuildFile; fileRef = 05D9F60F09D85F2C00AD30A7 /* CommonCryptor.c */; };
-		05D9F61709D85F4A00AD30A7 /* CommonCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D9F61609D85F4A00AD30A7 /* CommonCryptor.h */; };
-		05D9F61809D85F4A00AD30A7 /* CommonCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D9F61609D85F4A00AD30A7 /* CommonCryptor.h */; };
-		05D9F61909D85F4A00AD30A7 /* CommonCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D9F61609D85F4A00AD30A7 /* CommonCryptor.h */; };
-		05D9F61A09D85F4A00AD30A7 /* CommonCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D9F61609D85F4A00AD30A7 /* CommonCryptor.h */; };
 		05D9F62309D8696B00AD30A7 /* CommonCryptorPriv.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D9F62209D8696B00AD30A7 /* CommonCryptorPriv.h */; };
 		05D9F62409D8696B00AD30A7 /* CommonCryptorPriv.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D9F62209D8696B00AD30A7 /* CommonCryptorPriv.h */; };
 		05D9F62509D8696B00AD30A7 /* CommonCryptorPriv.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D9F62209D8696B00AD30A7 /* CommonCryptorPriv.h */; };
 		05D9F62609D8696B00AD30A7 /* CommonCryptorPriv.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D9F62209D8696B00AD30A7 /* CommonCryptorPriv.h */; };
-		05D9F62D09D8745E00AD30A7 /* CommonCryptor.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 05D9F61609D85F4A00AD30A7 /* CommonCryptor.h */; };
-		05D9F62E09D8746300AD30A7 /* CommonCryptor.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 05D9F61609D85F4A00AD30A7 /* CommonCryptor.h */; };
 		05D9F64F09D87ED000AD30A7 /* CommonHMAC.c in Sources */ = {isa = PBXBuildFile; fileRef = 05D9F64E09D87ED000AD30A7 /* CommonHMAC.c */; };
 		05D9F65009D87ED000AD30A7 /* CommonHMAC.c in Sources */ = {isa = PBXBuildFile; fileRef = 05D9F64E09D87ED000AD30A7 /* CommonHMAC.c */; };
 		05D9F65209D87ED000AD30A7 /* CommonHMAC.c in Sources */ = {isa = PBXBuildFile; fileRef = 05D9F64E09D87ED000AD30A7 /* CommonHMAC.c */; };
@@ -255,6 +249,7 @@
 		05E319DD0638913700C4AD24 /* sha2Priv.h in Headers */ = {isa = PBXBuildFile; fileRef = 05E319DC0638913700C4AD24 /* sha2Priv.h */; };
 		05E319DE0638913700C4AD24 /* sha2Priv.h in Headers */ = {isa = PBXBuildFile; fileRef = 05E319DC0638913700C4AD24 /* sha2Priv.h */; };
 		05ECA0EE09D469A100CFE5CB /* set_key.c in Sources */ = {isa = PBXBuildFile; fileRef = 05ECA0ED09D469A100CFE5CB /* set_key.c */; };
+		0C2E79781DCCF43D0001FE0D /* CommonCrypto.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0C2E79771DCCF43D0001FE0D /* CommonCrypto.h */; };
 		4C0889EA06EFE058009F3789 /* CommonDigest.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 054BBECD05F6AA7200344873 /* CommonDigest.h */; };
 		58226EAE0D35835700B35CC2 /* AES.c in Sources */ = {isa = PBXBuildFile; fileRef = 58226EAB0D35835700B35CC2 /* AES.c */; settings = {COMPILER_FLAGS = "-std=c99"; }; };
 		58226EAF0D35835700B35CC2 /* AESAssembly.h in Headers */ = {isa = PBXBuildFile; fileRef = 58226EAC0D35835700B35CC2 /* AESAssembly.h */; };
@@ -402,7 +397,6 @@
 			dstPath = /usr/include/CommonCrypto;
 			dstSubfolderSpec = 0;
 			files = (
-				05D9F62D09D8745E00AD30A7 /* CommonCryptor.h in CopyFiles */,
 				050737EF09E41958005E9620 /* CommonHMAC.h in CopyFiles */,
 				05A3762A061228FA009C43A6 /* CommonDigest.h in CopyFiles */,
 			);
@@ -451,7 +445,6 @@
 			dstSubfolderSpec = 16;
 			files = (
 				05E0A1DE09DDA774005F54BA /* CommonCryptoPriv.h in CopyFiles */,
-				05D9F62E09D8746300AD30A7 /* CommonCryptor.h in CopyFiles */,
 				050737F009E41969005E9620 /* CommonHMAC.h in CopyFiles */,
 				4C0889EA06EFE058009F3789 /* CommonDigest.h in CopyFiles */,
 				05E0A12209DD99D8005F54BA /* aes.h in CopyFiles */,
@@ -510,6 +503,7 @@
 				D6658DBB0BD8178400D18063 /* CCCryptorGetOutputLength.3cc in CopyFiles */,
 				D6658DBC0BD8178400D18063 /* CCCryptorRelease.3cc in CopyFiles */,
 				D6658DBD0BD8178400D18063 /* CCCryptorReset.3cc in CopyFiles */,
+				0C2E79781DCCF43D0001FE0D /* CommonCrypto.h in CopyFiles */,
 				D6658DBE0BD8178400D18063 /* CCCryptorUpdate.3cc in CopyFiles */,
 				D6658DBF0BD8178400D18063 /* CCHmac.3cc in CopyFiles */,
 				D6658DC00BD8178400D18063 /* CCHmacFinal.3cc in CopyFiles */,
@@ -568,7 +562,6 @@
 		05D5045B09DC5F7A00F47E19 /* ccNewGladman.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ccNewGladman.c; sourceTree = "<group>"; };
 		05D8D97C09E411AA00E03504 /* CommonHMAC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonHMAC.h; sourceTree = "<group>"; };
 		05D9F60F09D85F2C00AD30A7 /* CommonCryptor.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CommonCryptor.c; sourceTree = "<group>"; };
-		05D9F61609D85F4A00AD30A7 /* CommonCryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonCryptor.h; sourceTree = "<group>"; };
 		05D9F62209D8696B00AD30A7 /* CommonCryptorPriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonCryptorPriv.h; sourceTree = "<group>"; };
 		05D9F64E09D87ED000AD30A7 /* CommonHMAC.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CommonHMAC.c; sourceTree = "<group>"; };
 		05DF6D1109CF2D7200D9A3E8 /* CC_crypto.3cc */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = CC_crypto.3cc; path = doc/CC_crypto.3cc; sourceTree = "<group>"; };
@@ -581,6 +574,7 @@
 		05ECA0E509D468E200CFE5CB /* des_enc.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = des_enc.c; sourceTree = "<group>"; };
 		05ECA0E609D468E200CFE5CB /* des_locl.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = des_locl.h; sourceTree = "<group>"; };
 		05ECA0ED09D469A100CFE5CB /* set_key.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = set_key.c; sourceTree = "<group>"; };
+		0C2E79771DCCF43D0001FE0D /* CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonCrypto.h; sourceTree = "<group>"; };
 		0C75FE4F1DCAFE680093DEF7 /* ccSymTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ccSymTest.cpp; sourceTree = "<group>"; };
 		0C75FE511DCAFE680093DEF7 /* boxes-ref.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "boxes-ref.h"; sourceTree = "<group>"; };
 		0C75FE521DCAFE680093DEF7 /* bsafeUtils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bsafeUtils.c; sourceTree = "<group>"; };
@@ -722,7 +716,7 @@
 				0C75FE861DCB01CA0093DEF7 /* module.modulemap */,
 				0C75FE871DCB01CA0093DEF7 /* Package.swift */,
 				0C75FE881DCB01CA0093DEF7 /* README.md */,
-				054BBEB105F6A90E00344873 /* Public Headers */,
+				054BBEB105F6A90E00344873 /* CommonCrypto */,
 				054BBEB405F6A91E00344873 /* Source */,
 				05DF6D0E09CF2D5B00D9A3E8 /* doc */,
 				0C75FE4E1DCAFE680093DEF7 /* LocalTests */,
@@ -730,14 +724,13 @@
 			);
 			sourceTree = "<group>";
 		};
-		054BBEB105F6A90E00344873 /* Public Headers */ = {
+		054BBEB105F6A90E00344873 /* CommonCrypto */ = {
 			isa = PBXGroup;
 			children = (
 				054BBECD05F6AA7200344873 /* CommonDigest.h */,
-				05D9F61609D85F4A00AD30A7 /* CommonCryptor.h */,
+				0C2E79771DCCF43D0001FE0D /* CommonCrypto.h */,
 				05D8D97C09E411AA00E03504 /* CommonHMAC.h */,
 			);
-			name = "Public Headers";
 			path = CommonCrypto;
 			sourceTree = "<group>";
 		};
@@ -995,7 +988,6 @@
 				05C441C109D4E063002066D1 /* opensslconf.h in Headers */,
 				05C441C309D4E064002066D1 /* opensslDES.h in Headers */,
 				05C441C509D4E065002066D1 /* spr.h in Headers */,
-				05D9F61A09D85F4A00AD30A7 /* CommonCryptor.h in Headers */,
 				05D9F62609D8696B00AD30A7 /* CommonCryptorPriv.h in Headers */,
 				052F6C8809DB207F00EE63A4 /* aes.h in Headers */,
 				052F6C8B09DB207F00EE63A4 /* aesopt.h in Headers */,
@@ -1030,7 +1022,6 @@
 				05C4414609D49F29002066D1 /* des_locl.h in Headers */,
 				05C4416F09D4BACE002066D1 /* e_os2.h in Headers */,
 				05C4417309D4BB0B002066D1 /* opensslconf.h in Headers */,
-				05D9F61909D85F4A00AD30A7 /* CommonCryptor.h in Headers */,
 				05D9F62509D8696B00AD30A7 /* CommonCryptorPriv.h in Headers */,
 				052F6C8209DB207F00EE63A4 /* aes.h in Headers */,
 				052F6C8509DB207F00EE63A4 /* aesopt.h in Headers */,
@@ -1065,7 +1056,6 @@
 				05C441AF09D4E052002066D1 /* opensslconf.h in Headers */,
 				05C441B109D4E053002066D1 /* opensslDES.h in Headers */,
 				05C441B309D4E054002066D1 /* spr.h in Headers */,
-				05D9F61709D85F4A00AD30A7 /* CommonCryptor.h in Headers */,
 				05D9F62309D8696B00AD30A7 /* CommonCryptorPriv.h in Headers */,
 				052F6C7609DB207F00EE63A4 /* aes.h in Headers */,
 				052F6C7909DB207F00EE63A4 /* aesopt.h in Headers */,
@@ -1100,7 +1090,6 @@
 				05C441B809D4E05A002066D1 /* opensslconf.h in Headers */,
 				05C441BA09D4E05B002066D1 /* opensslDES.h in Headers */,
 				05C441BC09D4E05C002066D1 /* spr.h in Headers */,
-				05D9F61809D85F4A00AD30A7 /* CommonCryptor.h in Headers */,
 				05D9F62409D8696B00AD30A7 /* CommonCryptorPriv.h in Headers */,
 				052F6C7C09DB207F00EE63A4 /* aes.h in Headers */,
 				052F6C7F09DB207F00EE63A4 /* aesopt.h in Headers */,
