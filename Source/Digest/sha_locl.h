@@ -130,7 +130,7 @@
 					)
 # endif
 
-#define SHA1_ASM
+//#define SHA1_ASM
 #ifdef SHA1_ASM
 	#if defined __i386__ || defined __x86_64__
 		#define sha1_block_host_order		_sha1_block_asm_host_order

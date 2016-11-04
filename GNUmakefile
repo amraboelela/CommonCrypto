@@ -65,7 +65,7 @@ CommonCrypto_INCLUDE_DIRS=\
 # GNU binutils assembler barfs on some of these files, and the llvm MC assembler
 # in clang on others. So we need to choose the assembler accordingly:
 
-CommonCrypto_OBJ_FILES = \
+#CommonCrypto_OBJ_FILES = \
 $(GNUSTEP_OBJ_INSTANCE_DIR)/Source/Digest/sha1edpLittleEndian.s.clang-as$(OEXT) \
 $(GNUSTEP_OBJ_INSTANCE_DIR)/Source/Digest/sha1edpBigEndian.s.clang-as$(OEXT) \
 $(GNUSTEP_OBJ_INSTANCE_DIR)/Source/AESedp/Intel/AES.s.extern-as$(OEXT) \
@@ -73,14 +73,14 @@ $(GNUSTEP_OBJ_INSTANCE_DIR)/Source/AESedp/Intel/EncryptCBC.s.extern-as$(OEXT) \
 $(GNUSTEP_OBJ_INSTANCE_DIR)/Source/AESedp/Intel/DecryptCBC.s.extern-as$(OEXT) 
 
 # Add rule for producing object files from assembler
-$(GNUSTEP_OBJ_INSTANCE_DIR)/%.s.clang-as$(OEXT) : %.s
-	$(ECHO_COMPILING)$(CC) -integrated-as -x assembler-with-cpp $< -c \
+#$(GNUSTEP_OBJ_INSTANCE_DIR)/%.s.clang-as$(OEXT) : %.s
+#	$(ECHO_COMPILING)$(CC) -integrated-as -x assembler-with-cpp $< -c \
               $(filter-out $($<_FILE_FILTER_OUT_FLAGS),$(ALL_CPPFLAGS)\
                                                         $(ALL_CFLAGS)) \
               $($<_FILE_FLAGS) -o $@$(END_ECHO)
 
-$(GNUSTEP_OBJ_INSTANCE_DIR)/%.s.extern-as$(OEXT) : %.s
-	$(ECHO_COMPILING)$(CC) -no-integrated-as -x assembler-with-cpp $< -c \
+#$(GNUSTEP_OBJ_INSTANCE_DIR)/%.s.extern-as$(OEXT) : %.s
+#	$(ECHO_COMPILING)$(CC) -no-integrated-as -x assembler-with-cpp $< -c \
               $(filter-out $($<_FILE_FILTER_OUT_FLAGS),$(ALL_CPPFLAGS)\
                                                         $(ALL_CFLAGS)) \
               $($<_FILE_FLAGS) -o $@$(END_ECHO)
