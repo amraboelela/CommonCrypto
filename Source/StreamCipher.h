@@ -22,20 +22,20 @@
  */
 
 /* 
- * StreamCipher.h - CommonCryptor SPI interfaces for stream ciphers.
+ * StreamCipher.h - CommonCrypto SPI interfaces for stream ciphers.
  */
 
 #ifndef	_CC_STREAM_CIPHER_
 #define	_CC_STREAM_CIPHER_
 
-#include "CommonCryptorPriv.h"
+#include "CommonCryptoPriv.h"
 
 #ifdef __cplusplus
 extern "C" {
 #endif
 
 /*
- * CommonCryptor access all of our functionality through these callouts. 
+ * CommonCrypto access all of our functionality through these callouts. 
  */
 extern const CCCryptSpiCallouts ccRC4Callouts;
 

@@ -22,20 +22,20 @@
  */
 
 /* 
- * BlockCipher.h - CommonCryptor SPI interface for block ciphers.
+ * BlockCipher.h - CommonCrypto SPI interface for block ciphers.
  */
 
 #ifndef	_CC_BLOCK_CIPHER_
 #define	_CC_BLOCK_CIPHER_
 
-#include "CommonCryptorPriv.h"
+#include "CommonCryptoPriv.h"
 
 #ifdef __cplusplus
 extern "C" {
 #endif
 
 /*
- * CommonCryptor access all of our functionality through these callouts. 
+ * CommonCrypto access all of our functionality through these callouts. 
  */
 extern const CCCryptSpiCallouts ccBlockCipherCallouts;
 

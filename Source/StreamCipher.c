@@ -21,7 +21,7 @@
  * @APPLE_LICENSE_HEADER_END@
  */
 
-#include "CommonCryptorPriv.h"
+#include "CommonCryptoPriv.h"
 #include "StreamCipher.h"
 #include <CommonCrypto/rc4.h>
 
@@ -113,7 +113,7 @@ static CCCryptorStatus CCRC4OneShotSize(
 }
 
 /* 
- * Callouts used by CommonCryptor.
+ * Callouts used by CommonCrypto.
  */
 const CCCryptSpiCallouts ccRC4Callouts = 
 {

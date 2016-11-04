@@ -22,7 +22,7 @@
  */
 
 /*!
-	@header		CommonCryptor.h
+	@header		CommonCrypto.h
 	@abstract	Generic interface for symmetric encryption. 
 	
 	@discussion	This interface provides access to a number of symmetric encryption
@@ -92,7 +92,7 @@ typedef struct _CCCryptor *CCCryptorRef;
 
 /*!
 	@enum		CCCryptorStatus
-	@abstract	Return values from CommonCryptor operations.
+	@abstract	Return values from CommonCrypto operations.
 	
 	@constant	kCCSuccess			Operation completed normally.
 	@constant	kCCParamError		Illegal parameter value.

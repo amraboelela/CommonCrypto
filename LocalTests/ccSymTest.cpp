@@ -6,7 +6,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <sys/types.h>
-#include <CommonCrypto/CommonCryptor.h>
+#include <CommonCrypto/CommonCrypto.h>
 #include <CoreServices/../Frameworks/CarbonCore.framework/Headers/MacErrors.h>
 #include "common.h"
 

@@ -14,7 +14,7 @@
 .Sh LIBRARY
 These functions are found in libSystem.
 .Sh SYNOPSIS
-.In CommonCrypto/CommonCryptor.h
+.In CommonCrypto/CommonCrypto.h
 .Ft CCCryptorStatus
 .Fn CCCryptorCreate "CCOperation op" "CCAlgorithm alg" "CCOptions options" \
 "const void *key" "size_t keyLength" "const void *iv" "CCCryptorRef *cryptorRef"

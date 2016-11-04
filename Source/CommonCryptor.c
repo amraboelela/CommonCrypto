@@ -22,13 +22,13 @@
  */
 
 /*
- * CommonCryptor.c - common crypto context.
+ * CommonCrypto.c - common crypto context.
  *
  * Created 3/27/06 by Doug Mitchell. 
  */
 
-#include <CommonCrypto/CommonCryptor.h>
-#include "CommonCryptorPriv.h"
+#include <CommonCrypto/CommonCrypto.h>
+#include "CommonCryptoPriv.h"
 #include "BlockCipher.h"
 #include "StreamCipher.h"
 #include <stdlib.h>

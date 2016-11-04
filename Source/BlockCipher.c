@@ -22,13 +22,13 @@
  */
 
 /*
- * BlockCipher.c - CommonCryptor service provider for block ciphers.
+ * BlockCipher.c - CommonCrypto service provider for block ciphers.
  *
  * Created 3/20/2006 by Doug Mitchell.
  */
 
-#include <CommonCrypto/CommonCryptor.h>
-#include "CommonCryptorPriv.h"
+#include <CommonCrypto/CommonCrypto.h>
+#include "CommonCryptoPriv.h"
 #include <stdlib.h>
 #include <strings.h>
 #include <CommonCrypto/opensslDES.h>	/* SPI */
@@ -186,7 +186,7 @@ static const CCAlgInfo bcAlgInfos[] =
 #define NUM_CC_ALG_INFOS	(sizeof(bcAlgInfos) / sizeof(bcAlgInfos[0]))
 
 /* 
- * Runtime context. This follows CommonCryptor's CCCryptor struct, but
+ * Runtime context. This follows CommonCrypto's CCCryptor struct, but
  * we don't need to know that here. 
  */
 struct _CCBlockCipherContext {
@@ -804,7 +804,7 @@ static CCCryptorStatus CCBlockCipherOneShotSize(
 }
 
 /* 
- * Callouts used by CommonCryptor.
+ * Callouts used by CommonCrypto.
  */
 const CCCryptSpiCallouts ccBlockCipherCallouts = 
 {

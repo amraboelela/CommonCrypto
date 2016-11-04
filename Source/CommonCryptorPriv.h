@@ -22,7 +22,7 @@
  */
 
 /* 
- * CommonCryptorPriv.h - interface between CommonCryptor and operation- and
+ * CommonCryptoPriv.h - interface between CommonCrypto and operation- and
  *						 algorithm-specific service providers. 
  */
 
@@ -30,7 +30,7 @@
 #define	_CC_COMMON_CRYPTOR_PRIV_
 
 #include <CommonCrypto/CommonCryptoPriv.h>
-#include <CommonCrypto/CommonCryptor.h>
+#include <CommonCrypto/CommonCrypto.h>
 
 #ifdef __cplusplus
 extern "C" {
@@ -38,7 +38,7 @@ extern "C" {
 
 /*
  * Service provider callouts, called from the public functions declared
- * in CommonCryptor.h. Semantics are the same as the corresponding functions
+ * in CommonCrypto.h. Semantics are the same as the corresponding functions
  * in that header, except for the void * passed to *ccCryptSpiInitFcn (which 
  * otherwise corresponds to CCCryptorCreate()), the allocation of which is 
  * handled at the CCCryptor layer. 

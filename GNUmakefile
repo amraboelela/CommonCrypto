@@ -20,7 +20,7 @@ CommonCrypto_C_FILES=\
 	Source/CAST/c_enc.c\
 	Source/CAST/c_skey.c\
 	Source/CAST/ccCast.c\
-	Source/CommonCryptor.c\
+	Source/CommonCrypto.c\
 	Source/CommonHMAC.c\
 	Source/Digest/md2_dgst.c\
 	Source/Digest/md4_dgst.c\
@@ -37,7 +37,7 @@ CommonCrypto_C_FILES=\
 	Source/ccOpenssl/set_key.c
 
 CommonCrypto_HEADER_FILES=\
-	CommonCryptor.h\
+	CommonCrypto.h\
 	CommonDigest.h\
 	CommonHMAC.h
 
