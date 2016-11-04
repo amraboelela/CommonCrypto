@@ -20,7 +20,6 @@ Then:
 3. Build CommonCrypto
 
         CommonCrypto$ make
-        CommonCrypto$ make install
 
 4. If you get the following error:
 
