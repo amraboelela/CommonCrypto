@@ -1,5 +1,5 @@
 module CommonCryptor [system] {
-  header "CommonCryptor/CommonCryptor.h"
-  link "CommonCryptor"
+  header "CommonCrypto/CommonCrypto.h"
+  link "CommonCrypto"
   export *
 }
