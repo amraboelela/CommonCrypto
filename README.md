@@ -72,4 +72,4 @@ criticisms, suggestions or bug reports to him.
         #endif
 That will make the code run in C only and not in Assembly as the assembly code didn't run corretly with me in my Linux Ubuntu environment
 
-2. I have tried IBM BlueCryptor which uses OpenSSL in Linux and CommonCrypto in Mac OS, what I found when I ran my unit testing is that it took 5 seconds in Mac OS, while it took 131 seconds in Linux, which is too long. However, when I tried this version of CommonCrypto in Linux, it took about 5 seconds only, like in Mac OS.
+2. I have tried IBM BlueCryptor which uses OpenSSL in Linux and CommonCrypto in Mac OS, what I found when I ran my unit testing is that it took 5 seconds in Mac OS, while it would take about 26 seconds in a Linux VM. However, when I tried this version of CommonCrypto in Linux, it used to take roughly the same like in Mac OS.
