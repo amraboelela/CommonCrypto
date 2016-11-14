@@ -31,10 +31,11 @@ Then do the following:
         /$ sudo find . -name "TargetConditionals.h"
 If not found then download swift toolchain from https://swift.org/download/ to Linux find the file from the toolchain
 
-        /$ sudo cp path/to/TargetConditionals.h usr/include
-Then run do step #3 again
+        $ sudo cp /path/to/TargetConditionals.h /usr/include
 
-5. Copy the library to /usr/lib
+5. Repeat step #3
+
+6. Copy the library to /usr/lib
 
         CommonCrypto$ sudo cp obj/libCommonCrypto* /usr/lib
 
