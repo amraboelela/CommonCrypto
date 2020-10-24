@@ -1,0 +1,5 @@
+module CommonCrypto [system] {
+  header "CommonCrypto/CommonCrypto.h"
+  link "CommonCrypto"
+  export *
+}
