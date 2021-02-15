@@ -1,3 +1,0 @@
-before-all::
-	mkdir -p obj/$(GNUSTEP_TARGET_LDIR)/CommonCrypto.obj/Source/AESedp/Intel
-
