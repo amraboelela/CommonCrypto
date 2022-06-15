@@ -80,6 +80,8 @@
 #include <stdint.h>
 #include <stddef.h>
 
+#include <CommonCrypto/CommonDigest.h>
+
 #ifdef __cplusplus
 extern "C" {
 #endif
@@ -606,5 +608,6 @@ CCCryptorStatus CCCrypt(
 #ifdef __cplusplus
 }
 #endif
+
 
 #endif	/* _CC_COMMON_CRYPTOR_ */
