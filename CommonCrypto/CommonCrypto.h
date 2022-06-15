@@ -80,7 +80,7 @@
 #include <stdint.h>
 #include <stddef.h>
 
-#include <CommonCrypto/CommonDigest.h>
+#include "CommonDigest.h"
 
 #ifdef __cplusplus
 extern "C" {
