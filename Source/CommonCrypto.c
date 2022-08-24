@@ -27,6 +27,7 @@
  * Created 3/27/06 by Doug Mitchell. 
  */
 
+#include <string.h>
 #include <CommonCrypto/CommonCrypto.h>
 #include "CommonCryptoPriv.h"
 #include "BlockCipher.h"

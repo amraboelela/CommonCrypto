@@ -27,6 +27,7 @@
  * Created 3/27/2006 by Doug Mitchell.
  */
 
+#include <string.h>
 #include <CommonCrypto/CommonHMAC.h>
 #include <strings.h>
 #include <stdlib.h>

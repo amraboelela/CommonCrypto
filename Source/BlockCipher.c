@@ -27,10 +27,11 @@
  * Created 3/20/2006 by Doug Mitchell.
  */
 
+#include <string.h>
+#include <strings.h>
 #include <CommonCrypto/CommonCrypto.h>
 #include "CommonCryptoPriv.h"
 #include <stdlib.h>
-#include <strings.h>
 #include <CommonCrypto/opensslDES.h>	/* SPI */
 #include <CommonCrypto/ccCast.h>		/* SPI */
 #include <CommonCrypto/ccRC2.h>		/* SPI */
